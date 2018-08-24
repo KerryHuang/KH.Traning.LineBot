@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linebot", "Linebot\Linebot.csproj", "{BB85CA4E-4C31-4286-8CEC-D680BD693A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHook_First", "WebHook_First\WebHook_First.csproj", "{37619D9A-5F5A-415D-86F9-3846DE4D57CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineBotApi", "LineBotApi\LineBotApi.csproj", "{CE46FDE3-EEE8-4F50-ADE9-ACF9A79C0862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB85CA4E-4C31-4286-8CEC-D680BD693A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB85CA4E-4C31-4286-8CEC-D680BD693A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB85CA4E-4C31-4286-8CEC-D680BD693A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB85CA4E-4C31-4286-8CEC-D680BD693A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37619D9A-5F5A-415D-86F9-3846DE4D57CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37619D9A-5F5A-415D-86F9-3846DE4D57CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37619D9A-5F5A-415D-86F9-3846DE4D57CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37619D9A-5F5A-415D-86F9-3846DE4D57CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE46FDE3-EEE8-4F50-ADE9-ACF9A79C0862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE46FDE3-EEE8-4F50-ADE9-ACF9A79C0862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE46FDE3-EEE8-4F50-ADE9-ACF9A79C0862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE46FDE3-EEE8-4F50-ADE9-ACF9A79C0862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65D96509-35D8-4CC9-AE3A-3345F06F3C5A}
+	EndGlobalSection
+EndGlobal
