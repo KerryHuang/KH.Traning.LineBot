@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace WebHook_First
 {
@@ -26,8 +21,8 @@ namespace WebHook_First
 
             //從Code取回toke
             var token = isRock.LineLoginV21.Utility.GetTokenFromCode(code,
-                "1585738623",  //TODO:請更正為你自己的 client_id            
-                "ecfa8aeefc255198b45eea3f3de8674b", //TODO:請更正為你自己的 client_secret
+                "*********",  //TODO:請更正為你自己的 client_id            
+                "*********", //TODO:請更正為你自己的 client_secret
                 "http://localhost:4334/logincallback.aspx");  //TODO:請更正為你自己的 callback url
 
             //顯示，測試用
